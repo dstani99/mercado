@@ -12,6 +12,18 @@
                         @csrf
 
                         <div class="form-group row">
+                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Roles') }}</label>
+
+                            <div class="col-md-6">
+                                <select class="form-control" name="rol" required autofocus >
+                                    <option value="2">Proveedor</option>
+                                    <option value="3">Vendedor</option>
+                                    <option value="4">Cliente</option>
+                                    option
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
                             <div class="col-md-6">
